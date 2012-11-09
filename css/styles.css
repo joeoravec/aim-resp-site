@@ -1,0 +1,472 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: Framdcn;
+	src: url('../Framdcn.TTF');
+}
+
+html, body { height: 100%; }
+
+body {
+	background: #fff;
+	margin: 0 auto;
+	padding: 0;
+	font-size: 1em;
+}
+
+#wrap {
+	min-height: 100%; 
+}
+
+#headtrim {
+	background: #000c1a;
+	height: 22px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+#headtrimcontent {
+	margin: 0 auto;
+	color: #fff;
+	text-align: right;
+	font-family: Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	letter-spacing: .05em;
+	font-size: .7em;
+	padding: 2px 0 0 0;
+}
+
+#headtrimcontent a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+#headhome {
+	background: url(../img/head_home_bg.jpg) #01244b no-repeat top center;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+	color: #fff; 
+	font-family: Century, Georgia, 'Times New Roman', Times, serif; 
+}
+
+#headhometext {
+	text-align: right; 
+	line-height: 1.2em;
+	font-size: 1.1em; 
+	vertical-align: middle; 
+	padding: 1.8em 0 2em;
+}
+
+#headnav {
+	background: #04101f;
+	height: 40px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#headnavcontent ul {	
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	padding-top: 9px;
+	padding-bottom: 12px;
+	height: 40px;
+}
+
+#headnavcontent li {	
+	display: inline;
+}
+
+#headnavcontent li a:link, #headnavcontent li a:visited {	
+	background: #003064;
+	font-family: Framdcn, Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: .8em;
+	text-transform: uppercase;
+	color: #fff;
+	height: 40px;
+	padding: 10px 18px 11px 18px;
+	margin-top: 2px;
+	margin-right: -3px;
+	text-decoration: none;
+}
+
+#headnavcontent li a:hover, #headnavcontent li a:active {	
+	background: #04101f;
+}
+
+.headnavactive {
+	background: #04101f !important;
+}
+
+#blurbcontainer {
+	padding-top: 25px;
+	padding-bottom: 35px;
+}
+
+#maincontainer {
+	padding-top: 5px;
+	padding-bottom: 35px;
+}
+
+#subcontainer {
+	padding-top: 35px;
+	padding-bottom: 15px;
+}
+
+#maincontent {
+	padding-bottom: 20px;
+}
+
+#maincontent h1 {
+	font-family: Framdcn, Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 2.1em;
+	font-weight: 200;
+	color: #003065;
+	margin-top: 3px;
+}
+
+#maincontent h2 {
+	font-family: Framdcn, Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	font-weight: 200;
+	color: #9e0b0e;
+	margin-top: 0px;
+}
+
+#maincontent p {
+	font-family: Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	line-height: 1.5em;
+	color: #252525;
+}
+
+#homeblurb {
+	font-family: Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	color: #252525;
+}
+
+#homeblurb h1 {
+	font-family: Framdcn, Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1.8em;
+	color: #003065;
+	margin-top: 3px;
+}
+
+#homerequest {
+	background: #f7f7f7;
+	border: 1px solid #b9b9b9;
+	padding: 18px;
+}
+
+#homerequest h1 {
+	font-family: Framdcn, Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	color: #9e0b0e;
+	margin-top: 0px;
+}
+
+#homerequest p {
+	font-family: Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 0.9em;
+	color: #252525;
+}
+
+.homebutton {
+	background: url(../img/button_bg_arrow.gif) right center no-repeat #9e0b0e; 
+	float: right; 
+	padding: 3px 0px 3px 0px;
+	margin-bottom: 15px;
+}
+
+.homebutton a {
+	color: #fff; 
+	text-decoration: none; 
+	padding: 0px 18px 0px 8px; 
+	font-family: Framdcn, Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: .9em;
+    letter-spacing: 1px;
+}
+
+
+.homesubhead {
+	font-family: Framdcn, Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1.4em;
+	font-weight: 200;
+	line-height: 1.5em;
+	color: #9e0b0e;
+	margin-top: 0px;
+	margin-bottom: 8px;
+    padding-bottom: 1px;
+	border-bottom: #b9b9b9 1px solid;
+}
+
+.homemain {
+	font-family: Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 0.95em;
+	color: #252525;
+}
+
+#footer {
+	clear: both;
+	background: url(../img/head_home_bg.jpg) #01244b;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#footercontent {
+	margin: 0 auto;
+}
+
+#footertext {
+	color: #fff;
+	text-align: right;
+	font-family: "Trebuchet MS", Trebuchet, Geneva, Arial, Helvetica, sans-serif;
+	letter-spacing: .05em;
+	font-size: 0.75em;
+	padding: 5px 0 0 0;
+}
+
+#footertext a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#footernav {
+	padding: 5px 0 0 0;
+}
+
+#footernav ul {	
+	list-style: none; 
+	margin: 0;
+	padding: 0;
+}
+
+#footernav li {	
+	display: inline;
+	font-family: "Trebuchet MS", Trebuchet, Geneva, Arial, Helvetica, sans-serif;
+	letter-spacing: .05em;
+	font-size: 0.8em;
+	color: #fff;
+	padding-right: 6px;
+}
+
+#footernav li a {	
+	color: #fff;
+	text-decoration: underline;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
+
+.hide-text {
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.logo-bg {
+	background: url(../img/aim_logo.png) no-repeat;
+	height: 86px;
+	margin-top: 30px;
+}
+
+.logo-sub {
+	background: url(../img/aim_logo.png) no-repeat;
+	height: 86px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.nav-mobile {
+	background: #04101f;
+	width: 100%;
+}
+
+.nav-mobile ul {	
+	list-style-type: none; 
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.nav-mobile li {	
+	width: 100%;
+	border-bottom: 1px solid #01193d;
+	padding: 0.5em;
+	text-align: center;
+}
+
+.nav-mobile li a:link, .nav-mobile li a:visited {	
+	width: 100%;
+	background: #04101f;
+	font-family: Framdcn, Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1.0em;
+	text-transform: uppercase;
+	color: #fff;
+	text-decoration: none;
+}
+
+.nav-mobile li a:hover, .nav-mobile li a:active {	
+	width: 100%;
+}
+
+.navbar {
+	margin-bottom: 0;
+	background: #04101f;
+}
+
+.navbar-inner {
+	background: #04101f;
+	border: none;
+}
+
+
+
+fieldset {   
+	float: left;  
+	clear: left;  
+	width: 100%;  
+	margin: 0 0 1.5em 0;  
+	padding: 0;   
+	border: 1px solid #CCC;
+}  
+legend {   
+	margin-left: 1em;   
+	font-family: Framdcn, Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1.3em;
+	font-weight: 200;
+	color: #9e0b0e;
+	width: auto;
+	border-bottom: none;
+}  
+fieldset ol {   
+	padding: 1em 1em 0 1em;   
+	list-style: none;  
+} 
+fieldset li {  
+ float: left;  
+ clear: left;  
+ width: 100%;  
+ padding-bottom: 1em;  
+}  
+fieldset.submit {  
+ float: none;  
+ width: auto;  
+ border: 0 none #FFF;  
+ padding-left: 12em;  
+} 
+fieldset input.text, fieldset textarea.text {
+	background: #ffffff;
+	border-top: 1px #666666 solid;
+	border-left: 1px #666666 solid;
+	border-bottom: 1px #cccccc solid;
+	border-right: 1px #cccccc solid;
+	font-family: Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 3px;
+	width: 60%;
+} 
+fieldset input.text:focus, fieldset textarea.text:focus {
+	background: #ddffdd;
+} 
+ label {  
+ 	float: left;  
+ 	width: 10em;  
+ 	margin-right: 1em;  
+ 	text-align: right; 
+	font-family: Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+ } 
+ 
+ fieldset fieldset {        
+margin-bottom: -2.5em;        
+border-style: none;        
+background-color: transparent;        
+background-image: none;        
+}        
+fieldset fieldset legend { 
+ float: left;  
+ width: 10em;  
+ margin-right: 1em; 
+ padding-right: 10px; 
+ text-align: right; 
+	font-family: Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #000000;  
+}        
+fieldset fieldset ol {        
+position: relative;        
+top: -1.5em;        
+margin: 0 0 0 12em;        
+padding: 0;        
+}        
+fieldset fieldset label {        
+float: none;        
+width: auto;        
+margin-right: auto;       
+}  
+input[type="checkbox"] {
+	margin: 0;
+}
+
+@media only screen and (max-width: 1023px) {
+    body {
+		font-size: 1.0em;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	.container {
+		padding: 0 20px;
+	}
+	#headhometext {
+		text-align: center;
+	}
+	.logo-bg {
+		background: url(../img/aim_logo.png) no-repeat center;
+		height: 86px;
+		margin-top: 10px;
+	}
+	label {  
+ 		text-align: left;
+ 	}
+ 	fieldset fieldset {
+ 		margin-bottom: -1em;
+ 	}
+ 	fieldset fieldset legend {
+ 		float: none;
+ 		text-align: left;
+ 		margin-left: 0;
+ 	}
+ 	fieldset fieldset ol {
+ 		position: inherit;
+ 		margin: 0;
+ 		padding: 1em 0 1em;
+ 	}
+ 	fieldset ol {
+ 		margin-left: 2px;
+ 	}
+ 	fieldset input.text, fieldset textarea.text {
+ 		width: 90%;
+ 	} 
+}
+
+@media only screen and (max-width: 480px) {
+	#footertext {
+		text-align: center;
+	}
+}
