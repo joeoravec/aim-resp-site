@@ -1,4 +1,6 @@
 aim-resp-site
 =============
 
-Rebuilding AIM site as responsive
+Rebuilding client site as responsive (RWD) using Twitter Bootstrap
+
+[View Working Sample Online](http://www.joeoravec.com/aim-resp-site/ "Sample RWD/Bootstrap Site")
